@@ -3,7 +3,7 @@ const router = express.Router();
 
 const announceController = require("../controllers/announceController");
 const bookingController = require("../controllers/bookingController");
-const userAuth = require("../middleware/userAuthMiddleware");
+const userAuth = require("../middleware/userauthMiddleWare");
 const userController = require("../controllers/userController");
 
 //user
