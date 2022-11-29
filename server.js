@@ -20,6 +20,7 @@ app.use(
   cors({
     credentials: true,
     exposedHeaders: ["Set-Cookie", "Date", "ETag"],
+    origin: "https://juanfrontend.onrender.com",
   })
 );
 app.use(cookieparser());
